@@ -148,7 +148,12 @@
 }
 
 /* Up */
-
+.ot-letter-top span:before,
+.ot-letter-top span:after {
+	-webkit-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+}
 
 .ot-letter-top span:before {
 	-webkit-transform: scale(1,0.95) skew(-4deg,0deg);
