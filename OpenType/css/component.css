@@ -22,20 +22,7 @@
 }
 
 /* Common styles for the letters */
-.grid li span {
-	display: inline-block;
-	font-weight: 900;
-	line-height: 1;
-	position: relative;
-	color: hsla(0, 0%, 0%, 0.6);
-	-webkit-transform-style: preserve-3d;
-	-ms-transform-style: preserve-3d;
-	transform-style: preserve-3d;
-	-webkit-perspective: 550px;
-	-ms-perspective: 550px;
-	perspective: 550px;
-	z-index: 1;
-}
+
 
 .grid li span:before,
 .grid li span:after {
