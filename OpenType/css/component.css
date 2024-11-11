@@ -114,12 +114,7 @@
 }
 
 /* Right */
-.ot-letter-right span:before,
-.ot-letter-right span:after {
-	-webkit-transform-origin: 100% 50%;
-	-ms-transform-origin: 100% 50%;
-	transform-origin: 100% 50%;
-}
+
 
 .ot-letter-right span:before {
 	-webkit-transform: scale(0.85,1) skew(0deg,1deg);
